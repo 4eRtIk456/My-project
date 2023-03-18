@@ -1,9 +1,9 @@
 import pygame
-
 pygame.init()
 
 SCREEN=pygame.display.set_mode((400,600))
 working=True
+print('hi')
 print('hello')
 while working:
     for event in pygame.event.get():
